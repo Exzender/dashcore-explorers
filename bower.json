@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-explorers",
+  "name": "bitcore-explorers-dash",
   "main": "/bitcore-explorers.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/bitpay/bitcore-explorers",
+  "homepage": "https://github.com/Cofresi/bitcore-explorers-dash",
   "authors": [
     "BitPay"
   ],
@@ -13,7 +13,7 @@
   "keywords": [
     "bitcoin",
     "bitcore",
-    "btc",
+    "DASH",
     "satoshi",
     "insight"
   ],
