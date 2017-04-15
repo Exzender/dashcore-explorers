@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/Cofresi/bitcore-explorers-dash",
   "devDependencies": {
-    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "bitcore-build-dash": "dashpay/bitcore-build-dash",
     "brfs": "^1.2.0",
     "browserify": "^8.1.1",
     "chai": "^2.0.0",
