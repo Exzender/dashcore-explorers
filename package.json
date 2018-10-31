@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-explorers-dash",
+  "name": "dashcore-explorers",
   "version": "1.0.1",
   "description": "Module to query blockchain apis for Bitcore DASH.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cofresi/bitcore-explorers-dash.git"
+    "url": "https://github.com/vladanm/dashcore-explorers.git"
   },
   "keywords": [
     "DASH",
@@ -27,7 +27,7 @@
   "browser": {
     "request": "browser-request"
   },
-  "homepage": "https://github.com/Cofresi/bitcore-explorers-dash",
+  "homepage": "https://github.com/vladanm/dashcore-explorers",
   "devDependencies": {
     "bitcore-build-dash": "dashpay/bitcore-build-dash",
     "brfs": "^1.2.0",
