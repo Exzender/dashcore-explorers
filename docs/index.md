@@ -1,5 +1,5 @@
 # Explorers
-The `bitcore-explorers` module provides a convenient interface to retrieve unspent transaction outputs and broadcast transactions to the Bitcoin network via blockchain explorers.
+The `dashcore-explorers` module provides a convenient interface to retrieve unspent transaction outputs and broadcast transactions to the Bitcoin network via blockchain explorers.
 
 ## Installation
 Explorers is implemented as a separate module.
@@ -7,13 +7,13 @@ Explorers is implemented as a separate module.
 For node projects:
 
 ```
-npm install bitcore-explorers --save
+npm install dashcore-explorers --save
 ```
 
 For client-side projects:
 
 ```
-bower install bitcore-explorers --save
+bower install dashcore-explorers --save
 ```
 
 ## Insight
@@ -25,10 +25,10 @@ There are currently two methods implemented: `getUnspentUtxos` and `broadcast`. 
 #### Retrieving Unspent UTXOs for an Address (or set of)
 
 ```javascript
-var Insight = require('bitcore-explorers').Insight;
+var Insight = require('dashcore-explorers').Insight;
 var insight = new Insight();
 
-insight.getUnspentUtxos('1Bitcoin...', function(err, utxos) {
+insight.getUnspentUtxos('Dashcoin...', function(err, utxos) {
   if (err) {
     // Handle errors...
   } else {

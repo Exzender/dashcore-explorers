@@ -19,10 +19,10 @@ bower install bitcore-explorers
 At the moment, only Insight is supported, and only getting the UTXOs for an address and broadcasting a transaction.
 
 ```javascript
-var explorers = require('bitcore-explorers');
+var explorers = require('dashcore-explorers');
 var insight = new explorers.Insight();
 
-insight.getUtxos('1Bitcoin...', function(err, utxos) {
+insight.getUtxos('Dash...', function(err, utxos) {
   if (err) {
     // Handle errors...
   } else {

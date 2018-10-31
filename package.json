@@ -37,8 +37,8 @@
     "sinon": "^1.12.2"
   },
   "dependencies": {
-    "bitcore-lib-dash": "^0.13.20",
     "browser-request": "^0.3.3",
+    "dashcore-lib": "^8.2.3",
     "request": "^2.51.0"
   }
 }

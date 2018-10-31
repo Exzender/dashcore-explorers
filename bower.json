@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-explorers-dash",
+  "name": "dashcore-explorers",
   "main": "/bitcore-explorers.min.js",
   "version": "1.0.1",
-  "homepage": "https://github.com/Cofresi/bitcore-explorers-dash",
+  "homepage": "https://github.com/vladanm/dashcore-explorers.git",
   "authors": [
     "BitPay"
   ],
