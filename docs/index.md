@@ -49,3 +49,16 @@ insight.broadcast(tx, function(err, returnedTxId) {
   }
 });
 ```
+
+#### Broadcasting a Instant Send Transaction
+
+```javascript
+var insight = new Insight();
+insight.broadcastInstant(tx, function(err, returnedTxId) {
+  if (err) {
+    // Handle errors...
+  } else {
+    // Mark the transaction as broadcasted
+  }
+});
+```
