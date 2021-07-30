@@ -1,5 +1,5 @@
 {
-  "name": "dashcore-explorers",
+  "name": "@kriptomat/dashcore-explorers",
   "version": "1.0.1",
   "description": "Module to query blockchain apis for Bitcore DASH.",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "test"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "@vladanm:https://npm.pkg.github.com"
   },
   "scripts": {
     "test": "gulp test",
