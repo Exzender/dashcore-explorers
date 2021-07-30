@@ -1,5 +1,5 @@
 {
-  "name": "dashcore-explorers",
+  "name": "@spletnik/dashcore-explorers",
   "version": "1.0.5",
   "description": "Module to query blockchain apis for Bitcore DASH.",
   "main": "index.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vladanm/dashcore-explorers.git"
+    "url": "https://github.com/spletnik/dashcore-explorers.git"
   },
   "keywords": [
     "DASH",
