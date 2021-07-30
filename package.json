@@ -1,5 +1,5 @@
 {
-  "name": "@kriptomat/dashcore-explorers",
+  "name": "@vladanm/dashcore-explorers",
   "version": "1.0.5",
   "description": "Module to query blockchain apis for Bitcore DASH.",
   "main": "index.js",
