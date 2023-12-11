@@ -1,6 +1,6 @@
 # Blockchain APIs for bitcore
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-explorers.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-explorers)
+[![NPM Package](https://img.shields.io/npm/v/bitcore-explorers.svg?style=flat-square)](https://www.npmjs.com/package/dashcore-explorers)
 [![Build Status](https://img.shields.io/travis/bitpay/bitcore-explorers.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-explorers)
 [![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-explorers.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-explorers)
 
@@ -17,14 +17,14 @@ Module updated to use current API version of [Insight](https://insight.dash.org)
 Be careful! When using this module, the information retrieved from remote servers may be compromised and not reflect the actual state of the blockchain.
 
 ```sh
-npm install @exzender/dashcore-explorers
-bower install @exzender/dashcore-explorers
+npm install dashcore-explorers
+bower install dashcore-explorers
 ```
 
 At the moment, only Insight is supported, and only getting the UTXOs for an address and broadcasting a transaction.
 
 ```javascript
-var explorers = require('@exzender/dashcore-explorers');
+var explorers = require('dashcore-explorers');
 var insight = new explorers.Insight();
 
 insight.getUtxos('Dash...', function(err, utxos) {
