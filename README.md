@@ -9,6 +9,7 @@ A module for [dashcore](https://github.com/dashpay/dashcore-lib) that implements
 ## Changes
 
 Module updated to use current API version of [Insight](https://insight.dash.org)
+
 **Axios** module used instead of deprecated **Request**.
 
 ## Getting started
@@ -34,10 +35,6 @@ insight.getUtxos('Dash...', function(err, utxos) {
   }
 });
 ```
-
-## Contributing
-
-See [CONTRIBUTING.md](https://github.com/bitpay/bitcore/blob/master/Contributing.md) on the main bitcore repo for information about how to contribute.
 
 ## License
 
