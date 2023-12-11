@@ -1,4 +1,4 @@
-# Blockchain APIs for bitcore
+# Blockchain APIs for bitcore DASH
 
 [![NPM Package](https://img.shields.io/npm/v/dashcore-explorers.svg?style=flat-square)](https://www.npmjs.com/package/dashcore-explorers)
 
