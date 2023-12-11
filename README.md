@@ -1,8 +1,6 @@
 # Blockchain APIs for bitcore
 
 [![NPM Package](https://img.shields.io/npm/v/dashcore-explorers.svg?style=flat-square)](https://www.npmjs.com/package/dashcore-explorers)
-[![Build Status](https://img.shields.io/travis/exzender/dashcore-explorers.svg?branch=master&style=flat-square)](https://travis-ci.org/exzender/dashcore-explorers)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-explorers.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-explorers)
 
 A module for [dashcore](https://github.com/dashpay/dashcore-lib) that implements HTTP requests to different Web APIs to query the state of DASH blockchain.
 
