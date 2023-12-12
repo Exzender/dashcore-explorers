@@ -1,6 +1,6 @@
 {
   "name": "dashcore-explorers",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Module to query blockchain apis for Bitcore DASH.",
   "main": "index.js",
   "directories": {
